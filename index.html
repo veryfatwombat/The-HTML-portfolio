@@ -2,15 +2,15 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-	    <meta name="description" content="HTML example">
-	    <meta name="keywords" content="HTML example">
-	    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="description" content="HTML example">
+	  <meta name="keywords" content="HTML example">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 			<title>The example of HTML file</title>
+				<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+				<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Sintony:400,700&display=swap" rel="stylesheet">
 				<link rel="stylesheet" href="css/main.css">
-					<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-					<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
-					<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      	<link rel="shortcut icon" href="img/favicon.png">
 	</head>
 	<body>
 		<header id="header" class="header">
@@ -18,61 +18,121 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-3">
-							<img src="img/logo.png" alt="Logo">
+							<img src="img/logo.png" alt="Logo of Restaurant">
 						</div>
 						<div class="col-lg-6">
 							<nav>
-								<ul class="menu">
+								<ul class="menu d-flex justify-content-between">
 									<li class="menu__item">
-										<a href="/">Home</a>
+										<a href="index.html">Home</a>
 									</li>
 									<li class="menu__item">
-										<a href="/">Menu</a>
+										<a href="index.html">Menu</a>
 									</li>
 									<li class="menu__item">
-										<a href="/">Reservation</a>
+										<a href="index.html">Reservation</a>
 									</li>
 									<li class="menu__item">
-										<a href="/">Recipe</a>
+										<a href="index.html">Recipe</a>
 									</li>
 									<li class="menu__item">
-										<a href="/">Blog</a>
+										<a href="index.html">Blog</a>
 									</li>
 									<li class="menu__item">
-										<a href="/">Pages</a>
+										<a href="index.html">Pages</a>
 									</li>
 									<li class="menu__item">
-										<a href="/">Contact</a>
+										<a href="index.html">Contact</a>
 									</li>
 								</ul>
 							</nav>
 						</div>
 						<div class="col-lg-3">
-
+							<button class="book cta d-flex justify-content-center">
+								<span class="book__icon"></span>
+								Book your table
+							</button>
 						</div>
 					</div>
 				</div>
 			</div>
 			<div class="offer">
 				<div class="container">
+					<div class="row">
+						<div class="col12-lg-12">
+							<div class="title">
+								<h1 class="title__heading">
+									Teste your favourite dish
+								</h1>
+								<p class="title_intro">
+									from
+										<span>
+											luxury restaurant
+										</span>
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</header>
-		<section class="call" id="call">
+		<section id="call" class="call">
 			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="phone d-flex ml-auto mr-auto">
+							<div class="phone__text">
+								Call us now for
+								<span class="yellow">
+									Home Delivery
+								</span>
+							</div>
+							<div class="phone__digits">
+								<h2>0427 075 009</h2>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section id="about" class="about">
 			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="history">
+							<h2 class="history__title">
+								About Restaurant
+							</h2>
+							<p class="history__text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi enim fugit doloribus fuga eius accusamus nisi, nam voluptatibus non, tenetur hic quos fugiat itaque, sit vitae quis nesciunt autem velit maxime iusto animi!
+							</p>
+							<a href="index.html" class="cta history__button">
+								Read more
+							</a>
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="food-imges food-images-down">
+							<img src="img/food1.jpg" alt="Pasta" class="food-images__item">
+							<img src="img/food2.jpg" alt="Chicken" class="food-images__item">
+						</div>
+					</div>
+					<div class="col-lg-3">
+						<div class="food-imges">
+							<img src="img/food3.jpg" alt="Meat" class="food-images__item">
+							<img src="img/food4.jpg" alt="Fish" class="food-images__item">
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 		<section id="special" class="special">
 			<div class="container">
 			</div>
 		</section>
+		<footer>
 			<div class="container">
 			</div>
-		<footer>
 		</footer>
 	</body>
 </html>
