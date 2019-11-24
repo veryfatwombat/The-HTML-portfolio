@@ -1,0 +1,310 @@
+body {
+	font-family: 'Sintony', sans-serif;
+	color: #5c6369;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	line-height: 1.8em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	color: #14141d;
+}
+
+.yellow {
+	color: #fea100;
+}
+
+.menu {
+	margin-top: 10px;
+}
+
+.menu__item {
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.menu__item a {
+	color: #2c465a;
+	text-transform: uppercase;
+}
+
+.cta {
+	background: #fea100;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	padding: 13px 0;
+	font-weight: 700;
+	display: block;
+	cursor: pointer;
+	width: 200px;
+	border: 0;
+	margin-top: -5px;
+	text-align: center;
+}
+
+.cta:hover {
+	text-decoration: none;
+	color: #fff;
+}
+
+.book__icon {
+	background: url('../img/order.png');
+	width: 21px;
+	height: 17px;
+	display: block;
+	margin-right: 13px;
+}
+
+.main-header {
+	padding: 24px 0;
+}
+
+.offer {
+	background: url('../img/first-bg.jpg') no-repeat center top;
+}
+
+.title {
+	padding: 210px 0;
+}
+
+.title__heading {
+	font-size: 56px;
+	color: #fff;
+}
+
+.title__desc {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-size: 40px;
+	color: #fff;
+	margin-top: -15px;
+}
+
+.title__desc span {
+	color: #fea100;
+}
+
+.call {
+	background: #edf1f3;
+	border-bottom: 1px solid #dde3e7;
+	padding: 30px 0;
+}
+
+.phone {
+	width: 455px;
+}
+
+.phone__text {
+	background: url('../img/phone.png') no-repeat left center;
+	color: #14141d;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 700;
+	width: 180px;
+	padding-left: 56px;
+	padding-top: 5px;
+}
+
+.phone__text span {
+	font-size: 16px;
+	margin-top: -4px;
+	display: block;
+}
+
+.phone__digits {
+	font-size: 32px;
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	color: #14141d;
+	margin-left: 42px;
+	margin-top: -5px;
+}
+
+.history {
+	margin-top: 60px;
+}
+
+.history__title {
+	font-size: 35px;
+	margin-bottom: 25px;
+}
+
+.history__text {
+	font-size: 14px;
+}
+
+.history__button {
+	width: 148px;
+	margin-top: 48px;
+}
+
+.about {
+	padding: 65px 0 100px;
+}
+
+.food-images {
+
+}
+
+.food-images__item {
+	margin-bottom: 10px;
+}
+
+.food-images-down {
+	margin-top: 50px;
+}
+
+.special {
+	background: url('../img/third-bg.jpg') no-repeat center top;
+	padding-top: 80px;
+}
+
+.special-title {
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+}
+
+.food {
+	text-align: center;
+	box-shadow: 0 20px 90px rgba(0,0,0,0.15);
+	margin-bottom: 130px;
+	margin-top: 20px;
+}
+
+.food__img {
+	margin-bottom: 45px;
+}
+
+.food__title {
+	font-size: 26px;
+	margin-bottom: 10px;
+}
+
+.food__desc {
+	font-size: 14px;
+	padding: 0 50px;
+}
+
+.food__details {
+	border-top: 1px solid #e1e1e1;
+	margin: 0 45px;
+	text-align: left;
+	color: #14141d;
+	padding: 19px 0;
+}
+
+.food__del {
+	text-transform: uppercase;
+	font-size: 13px;
+	width: 78px;
+	border-right: 1px solid #e1e1e1;
+	margin-right: 18px;
+	font-weight: 700;
+}
+
+.food__del span {
+	color: #fe4c8d;
+}
+
+.food__phone {
+	font-size: 26px;
+	font-family: 'Playfair Display', serif;
+
+}
+
+.food__price {
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+}
+
+.footer {
+	background: #373844;
+	color: #93989e;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding: 72px 106px;
+}
+
+.socials {
+
+}
+
+.socials__item a {
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	display: block;
+}
+
+.socials__item_fb a {
+	background: #3b5998 url('../img/fb.png') no-repeat center center;
+}
+
+.socials__item_tw a {
+	background: #55acee url('../img/tw.png') no-repeat center center;
+	margin: 0 7px;
+}
+
+.socials__item_g a {
+	background: #dd4b39 url('../img/g.png') no-repeat center center;
+}
+
+.line {
+	background: #52535e;
+	height: 1px;
+	margin-top: 7px;
+	margin-top: 50px;
+}
+
+.credits {
+	margin-top: 43px;
+	text-align: center;
+}
+
+.modal2 {
+	display: none;
+	z-index: 1000;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.modal2__overlay {
+	background: rgba(0,0,0,0.8);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+}
+
+.modal2__body {
+	width: 400px;
+	height: 200px;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	background: #fff;
+	margin-left: -200px;
+	margin-top: -100px;
+	border-radius: 10px;
+	box-shadow: 0 0 50px black;
+}
+
+.show {
+	display: block !important;
+}
