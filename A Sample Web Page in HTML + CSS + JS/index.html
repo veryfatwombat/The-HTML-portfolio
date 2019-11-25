@@ -64,9 +64,10 @@
 								<h1 class="title__heading">
 									Teste your favourite dish
 								</h1>
-								<p class="title_intro">
+								<p class="title__desc">
 									from
 										<span>
+											<!-- <span class="yellow"> -->
 											luxury restaurant
 										</span>
 								</p>
@@ -126,10 +127,8 @@
 				</div>
 			</div>
 		</section>
-
 		<section id="special" class="special">
 			<div class="container">
-
 				<div class="row">
 					<div class="col-lg-12">
 						<h2 class="special-title">
@@ -137,7 +136,6 @@
 						</h2>
 					</div>
 				</div>
-
 				<div class="row">
 					<div class="col-lg-6">
 						<div class="food">
@@ -148,36 +146,92 @@
 							<p class="food_desc">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore nesciunt velit, ipsam suscipit doloribus, tenetur autem dignissimos, quae eius illum rerum aut facere necessitatibus accusamus!
 							</p>
-							<div class="food__details">
+							<div class="food__details d-flex">
 								<div class="food__del">
 									Home
 									<span>
 										Delivery
 									</span>
 								</div>
-
-								<div class="">
+								<div class="food__phone">
+									0427 075 009
 								</div>
-								
+								<div class="food__price yellow ml-auto">
+									<sup><small>$</small></sup>
+									666
+								</div>
 							</div>
 						</div>
 					</div>
-
 					<div class="col-lg-6">
-						<div class="col-lg-6">
-							<div class="food">
-								<img src="img/dish.jpg" alt="food" class="food__img img-fluid">
+						<div class="food">
+							<img src="img/dish.jpg" alt="food" class="food__img img-fluid">
+							<h3 class="food__title">
+								Food name #2
+							</h3>
+							<p class="food_desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore nesciunt velit, ipsam suscipit doloribus, tenetur autem dignissimos, quae eius illum rerum aut facere necessitatibus accusamus!
+							</p>
+							<div class="food__details d-flex">
+								<div class="food__del">
+									Home
+									<span>
+										Delivery
+									</span>
+								</div>
+								<div class="food__phone">
+									0427 075 009
+								</div>
+								<div class="food__price yellow ml-auto">
+									<sup><small>$</small></sup>
+									777
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-
 			</div>
 		</section>
-
-		<footer>
+		<footer id="footer" class="footer">
 			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<ul class="socials d-flex justify-content-center">
+							<li class="socials__item socials__item_fb">
+								<a href="https://facebook.com/"></a>
+							</li>
+							<li class="socials__item socials__item_tw">
+								<a href="https://twitter.com/"></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="line"></div>
+					</div>
+					<div class="col-lg-4">
+						<div class="credits">
+							2019 <sub>&copy;</sub>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="line"></div>
+					</div>
+				</div>
 			</div>
 		</footer>
+		<div id="modal" class="modal2">
+			<div class="modal2__overlay">
+				<div class="modal2__body">
+					Book your table now please
+				</div>
+			</div>
+		</div>
+		<script
+  	src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  	integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+  	crossorigin="anonymous"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>
