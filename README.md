@@ -1,2 +1,1 @@
-# portfolio
-The portfolio of Junior Developer
+## Welcome to GitHub Page of JUNIOR Full Stack Developer
