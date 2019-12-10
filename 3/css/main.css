@@ -1,6 +1,21 @@
 body {
+	margin: 0;
     /* font-family: 'Kaushan Script', cursive; */
 	font-family: 'Montserrat', sans-serif;
 
 	font-size: 15px;
+	line-height: 1.6;
+	color: #333;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
 }
