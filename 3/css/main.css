@@ -25,12 +25,48 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	widht: 100%;
 	height: 100vh;
 
 	background: url("../images/intro.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+}
+
+.intro_inner {
+	width: 100%;
+	max-width: 880px;
+	margin: 0 auto;
+}
+
+.intro__title {
+	color: #fff;
+	font-size: 50px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1;
+}
+
+.intro__title:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	margin: 30px auto 0;
+
+	background-color: #fff;
+}
+
+.intro__suptitle {
+	margin-bottom: 15px;
+    font-family: 'Kaushan Script', cursive;
+	font-size: 42px;
+	color: #fff;
+	text-align: center;
 }
 
 .header {
@@ -70,7 +106,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	text-decoration: none;
 
-	transition: color .2s linear;
+	transition: color .1s linear;
 }
 
 .nav__link:after {
@@ -78,11 +114,24 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 	width: 100%;
 	height: 3px;
+	/* display: none; */
 
-	background-color: #fff;
+	background-color: #fce38a;
+	opacity: 0;
+	
 	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+
+	transition: opacity .1s linear;
 }
 
 .nav__link:hover {
 	color: #fce38a;
+}
+
+.nav__link:hover:after {
+	/* display: block; */
+	opacity: 1;
 }
