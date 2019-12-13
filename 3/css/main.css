@@ -40,6 +40,8 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 	max-width: 880px;
 	margin: 0 auto;
+
+	text-align: center;
 }
 
 .intro__title {
@@ -47,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 50px;
 	font-weight: 700;
 	text-transform: uppercase;
-	text-align: center;
+	/* text-align: center; */
 	line-height: 1;
 }
 
@@ -56,7 +58,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 	width: 60px;
 	height: 3px;
-	margin: 30px auto 0;
+	margin: 60px auto;
 
 	background-color: #fff;
 }
@@ -140,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
 	display: inline-block;
 	vertical-align: top;
-	padding: 10px 15px;
+	padding: 8px 30px;
 
 	border: 3px solid #fff;
 
@@ -149,8 +151,18 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none; 
+
+	transition: background .1s linear, color .1s linear;
 }
 
+.btn:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+.slider {
+
+}
 
 
 
