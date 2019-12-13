@@ -63,6 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro__suptitle {
 	margin-bottom: 15px;
+
     font-family: 'Kaushan Script', cursive;
 	font-size: 42px;
 	color: #fff;
@@ -135,3 +136,21 @@ h1, h2, h3, h4, h5, h6 {
 	/* display: block; */
 	opacity: 1;
 }
+
+.btn {
+	display: inline-block;
+	vertical-align: top;
+	padding: 10px 15px;
+
+	border: 3px solid #fff;
+
+	font-size: 14px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none; 
+}
+
+
+
+
