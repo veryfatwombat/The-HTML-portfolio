@@ -222,3 +222,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.section {
+	padding: 80px 0;
+}
+
+.section__header {
+	margin-bottom: 40px;
+}
+
+.section__suptitle {
+
+}
+
+.section__title {
+
+}
+
+.section__text {
+
+}
