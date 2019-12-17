@@ -263,6 +263,23 @@ h1, h2, h3, h4, h5, h6 {
 	color: #999;
 }
 
+.about {
+	display: flex;
+	justify-content: space-between;
+}
 
+.about__item {
+	width: 380px;
+}
 
+.about__item:hover .about__img img {
+	opacity: .1;	
+}
 
+.about__img {
+	background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.about__img img {
+	transition: opacity .1s linear;
+}
