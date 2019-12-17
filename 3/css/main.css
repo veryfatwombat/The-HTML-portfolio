@@ -227,17 +227,42 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section__header {
-	margin-bottom: 40px;
+	width: 100%;
+	max-width: 950px;
+	margin: 0 auto 40px;
+/*	margin-bottom: 40px; */
+
+	text-align: center;
 }
 
 .section__suptitle {
-
+	font-family: 'Kaushan Script', cursive; 
+	font-size: 24px;
+	color: #333;
 }
 
 .section__title {
+	font-size: 30px;
+	font-weight: 700;
+	color: #222;
+	text-transform: uppercase;
+}
 
+.section__title:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	margin: 30px auto;
+
+	background-color: #f38181;
 }
 
 .section__text {
-
+	font-size: 15px;
+	color: #999;
 }
+
+
+
+
