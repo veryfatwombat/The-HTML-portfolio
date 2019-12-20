@@ -221,15 +221,23 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
 }
 
-
 .section {
 	padding: 80px 0;
+}
+
+.section--devices {
+	margin-bottom: 40px;
+	padding-bottom: 0;
+
+	background: url("../images/devices-bg.jpg") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 
 .section__header {
 	width: 100%;
 	max-width: 950px;
-	margin: 0 auto 40px;
+	margin: 0 auto 50px;
 /*	margin-bottom: 40px; */
 
 	text-align: center;
@@ -392,4 +400,90 @@ h1, h2, h3, h4, h5, h6 {
 
 .services__item {
 	flex: 1 1 0;
+	padding-left: 85px;
+	padding-right: 35px;
+	position: relative;
+}
+
+.services__icon {
+	position: absolute;
+	top: 0px;
+	left: 28px;
+	z-index: 1;
+}
+
+.services__title {
+	margin-bottom: 10px;
+
+	font-size: 14px;
+	color: #333;
+	text-transform: uppercase;
+	/* line-height: 2; */
+}
+
+.services__text {
+	font-size: 15px;
+	color: #999;
+}
+
+hr {
+	display: block;
+	width: 100%;
+	height: 1px;
+	margin: 40px 0;
+
+	border: 0;
+	background-color: #e5e5e5;
+}
+
+.devices {
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.devices__item {
+	display: block;
+}
+
+.devices__item--iphone {
+	position: absolute;
+	/* top: 200px;
+	left: 350px; */
+	bottom: -80px;
+	right: 0;
+	z-index: 1;
+}
+
+.wedo {
+	display: flex;
+}
+
+.wedo__item {
+	width: 50%;
+}
+
+.wedo__item--570-380 {
+
+}
+
+.accordion {
+
+}
+
+.accordion__item {
+
+}
+
+.accordion__icon {
+
+}
+
+.accordion__title {
+	text-transform: uppercase;
+}
+
+.accordion__text {
+
 }
