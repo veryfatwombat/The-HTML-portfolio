@@ -1,6 +1,5 @@
 body {
 	margin: 0;
-    /* font-family: 'Kaushan Script', cursive; */
 	font-family: 'Montserrat', sans-serif;
 
 	font-size: 15px;
@@ -232,6 +231,10 @@ h1, h2, h3, h4, h5, h6 {
 	background: url("../images/devices-bg.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+}
+
+.section--gray {
+	background-color: #f8f8f8;
 }
 
 .section__header {
@@ -473,14 +476,35 @@ hr {
 }
 
 .accordion__item {
+	margin-bottom: 10px;
 	border: 1px solid #e5e5e5;
 }
 
+.accordion__item.active 
+.accordion__content {
+	display: block;
+}
+
+.accordion__item.active 
 .accordion__header {
-	padding: 15px 20px 15px 60px; 
+	/* border-bottom: 1px solid #e5e5e5; */
+	border-bottom-color: #e5e5e5;
+}
+
+.accordion__item.active 
+.accordion__header:after {
+	transform: translateY(-50%) rotate(-45deg);
+	margin-top: 5px;
+}
+
+.accordion__header {
+	padding: 15px 20px 15px 65px;
 	position: relative;
 
-	border-bottom: 1px solid #e5e5e5;
+	border-bottom: 1px solid transparent;
+	/* border-bottom: 1px solid #e5e5e5; */
+
+	cursor: pointer;
 }
 
 .accordion__header:after {
@@ -493,11 +517,11 @@ hr {
 	border-right: 2px solid #ccc;
 
 	position: absolute;
-	top: 60%;
+	top: 50%;
 	right: 20px;
 	z-index: 1;
 
-	transform: translateY(-50%) rotate(-45deg);
+	transform: translateY(-50%) rotate(135deg);
 }
 
 .accordion__icon {
@@ -511,6 +535,7 @@ hr {
 
 .accordion__content {
 	padding: 15px 20px; 
+	display: none;
 
 	font-size: 15px
 	color #999;
@@ -524,4 +549,75 @@ hr {
 	color: #333;
 	padding-left: 20px; 
 	text-transform: uppercase;
+}
+
+.reviews {
+	padding: 0 110px;
+	position: relative;
+}
+
+.reviews__item {
+	padding-left: 205px;
+	position: relative;
+}
+
+.reviews__icon {
+	border: 2px solid #95e1d3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.reviews__text {
+	margin-bottom: 15px;
+	font-size: 24px;
+	font-style: italic;
+	font-weight: 300;
+	color: #999;
+}
+
+.reviews__author {
+	font-family: 'Kaushan Script', cursive;
+	font-size: 24px;
+	color: #333;
+}
+
+.reviews__author:before {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+	width: 60px;
+	height: 3px;
+	background-color: #f38181;
+}
+
+.reviews__button {
+	font-size: 0;
+	color: transparent;
+
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+	transform: translateY(-50%);
+}
+
+.reviews__button:after {
+	content: "";
+	display: block;
+	width: 16px;
+	height: 16px;
+
+	border-top: 2px solid #ccc;
+	border-left: 2px solid #ccc;
+}
+
+.reviews__button--prev {
+	left: 0;
+	transform: rotate(-45deg);
+}
+
+.reviews__button--next {
+	right: 0;
+	transform: rotate(135deg);
 }
