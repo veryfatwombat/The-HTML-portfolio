@@ -48,7 +48,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 50px;
 	font-weight: 700;
 	text-transform: uppercase;
-	/* text-align: center; */
 	line-height: 1;
 }
 
@@ -135,7 +134,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav__link:hover:after, 
 .nav__link.active:after {
-	/* display: block; */
 	opacity: 1;
 }
 
@@ -170,18 +168,11 @@ h1, h2, h3, h4, h5, h6 {
 	bottom: 0;
 	left: 0;
 	z-index: 1;
-
-	/* display: flex;
-	justify-content: space-between; */
-	/* align-items: center; */
-	/* margin-top: 30px; */
 }
 
 .slider__inner {
 	display: flex;
 	justify-content: space-between;
-	/* align-items: center; 
-	margin-top: 30px; */
 }
 
 .slider__item {
@@ -241,7 +232,6 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 	max-width: 950px;
 	margin: 0 auto 50px;
-/*	margin-bottom: 40px; */
 
 	text-align: center;
 }
@@ -345,15 +335,6 @@ h1, h2, h3, h4, h5, h6 {
 
 	text-align: center;
 	color: #fff;
-
-	/* display: inline-block;
-	vertical-align: top;
-	padding: 8px 30px;
-
-	font-size: 14px;
-	font-weight: 700;
-	text-transform: uppercase;
-	text-decoration: none; */
 }
 
 .statistics__item:last-child {
@@ -369,33 +350,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .stat__sign {
 	font-size: 14px;
-	/* font-weight: 400; */
 	text-transform: uppercase;
 }
-
-/*
-.section__text1 {
-	margin-top: 80px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.section__text2 {
-	margin-top: 80px;
-	display: flex;
-	justify-content: space-between;
-}
-
-.section__text2:after {
-	content: "";
-	display: block;
-	width: 60px;
-	height: 3px;
-	margin: 60px auto;
-
-	background-color: #b5eae0;
-}
-*/
 
 .services {
 	display: flex;
@@ -421,7 +377,6 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 14px;
 	color: #333;
 	text-transform: uppercase;
-	/* line-height: 2; */
 }
 
 .services__text {
@@ -452,8 +407,6 @@ hr {
 
 .devices__item--iphone {
 	position: absolute;
-	/* top: 200px;
-	left: 350px; */
 	bottom: -80px;
 	right: 0;
 	z-index: 1;
@@ -465,14 +418,6 @@ hr {
 
 .wedo__item {
 	width: 50%;
-}
-
-.wedo__item--570-380 {
-
-}
-
-.accordion {
-
 }
 
 .accordion__item {
@@ -487,7 +432,6 @@ hr {
 
 .accordion__item.active 
 .accordion__header {
-	/* border-bottom: 1px solid #e5e5e5; */
 	border-bottom-color: #e5e5e5;
 }
 
@@ -502,7 +446,6 @@ hr {
 	position: relative;
 
 	border-bottom: 1px solid transparent;
-	/* border-bottom: 1px solid #e5e5e5; */
 
 	cursor: pointer;
 }
@@ -621,3 +564,4 @@ hr {
 	right: 0;
 	transform: rotate(135deg);
 }
+
