@@ -16,6 +16,16 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
 
+hr {
+	display: block;
+	width: 100%;
+	height: 1px;
+	margin: 40px 0;
+
+	border: 0;
+	background-color: #e5e5e5;
+}
+
 }
 .container {
 	width: 100%;
@@ -115,7 +125,6 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 	width: 100%;
 	height: 3px;
-	/* display: none; */
 
 	background-color: #fce38a;
 	opacity: 0;
@@ -164,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .slider {
 	width: 100%;
+
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -272,8 +282,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .about__item {
 	width: 380px;
-	position: relative;
+	/* position: relative;
 
+	background-color: #95e1d3; */
+}
+
+.about__inner {
+	position: relative;
 	background-color: #95e1d3;
 }
 
@@ -319,6 +334,18 @@ h1, h2, h3, h4, h5, h6 {
 	transition: opacity .2s linear;
 }
 
+.about__info {
+
+}
+
+.about__name {
+
+}
+
+.about__prof {
+
+}
+
 .statistics {
 	background-color: #95e1d3;
 }
@@ -343,6 +370,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .stat__count {
 	margin-bottom: 10px;
+
 	font-size: 72px;
 	font-weight: 700;
 	line-height: 1;
@@ -384,16 +412,6 @@ h1, h2, h3, h4, h5, h6 {
 	color: #999;
 }
 
-hr {
-	display: block;
-	width: 100%;
-	height: 1px;
-	margin: 40px 0;
-
-	border: 0;
-	background-color: #e5e5e5;
-}
-
 .devices {
 	width: 100%;
 	max-width: 600px;
@@ -425,18 +443,15 @@ hr {
 	border: 1px solid #e5e5e5;
 }
 
-.accordion__item.active 
-.accordion__content {
+.accordion__item.active .accordion__content {
 	display: block;
 }
 
-.accordion__item.active 
-.accordion__header {
+.accordion__item.active .accordion__header {
 	border-bottom-color: #e5e5e5;
 }
 
-.accordion__item.active 
-.accordion__header:after {
+.accordion__item.active .accordion__header:after {
 	transform: translateY(-50%) rotate(-45deg);
 	margin-top: 5px;
 }
@@ -482,7 +497,6 @@ hr {
 
 	font-size: 15px;
 	color: #999;
-
 	font-style: italic;
 	font-weight: 300;
 }
@@ -490,7 +504,7 @@ hr {
 .accordion__title {
 	font-size: 14px;
 	color: #333;
-	padding-left: 20px; 
+	/* padding-left: 20px; */
 	text-transform: uppercase;
 }
 
@@ -504,8 +518,9 @@ hr {
 	position: relative;
 }
 
-.reviews__icon {
+.reviews__photo {
 	border: 2px solid #95e1d3;
+
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -513,7 +528,10 @@ hr {
 }
 
 .reviews__text {
+	/* padding: 100px; */
+
 	margin-bottom: 15px;
+
 	font-size: 24px;
 	font-style: italic;
 	font-weight: 300;
@@ -565,3 +583,7 @@ hr {
 	transform: rotate(135deg);
 }
 
+/* .wedo__item--570-388 {
+	width: 570;
+	height: 388;
+} */
