@@ -583,7 +583,14 @@ hr {
 	transform: rotate(135deg);
 }
 
-/* .wedo__item--570-388 {
-	width: 570;
-	height: 388;
-} */
+.card {
+
+}
+
+.card__item {
+
+}
+
+.card__inner {
+	
+}
