@@ -15,6 +15,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	margin: 0;
+}
 
 hr {
 	display: block;
@@ -26,7 +27,6 @@ hr {
 	background-color: #e5e5e5;
 }
 
-}
 .container {
 	width: 100%;
 	max-width: 1200px;
@@ -334,18 +334,6 @@ hr {
 	transition: opacity .2s linear;
 }
 
-.about__info {
-
-}
-
-.about__name {
-
-}
-
-.about__prof {
-
-}
-
 .statistics {
 	background-color: #95e1d3;
 }
@@ -504,7 +492,6 @@ hr {
 .accordion__title {
 	font-size: 14px;
 	color: #333;
-	/* padding-left: 20px; */
 	text-transform: uppercase;
 }
 
@@ -692,8 +679,9 @@ hr {
 .logos {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
-.logos__item {
+. {
 	
 }
