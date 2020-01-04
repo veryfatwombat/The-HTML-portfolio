@@ -682,6 +682,60 @@ hr {
 	align-items: center;
 }
 
-. {
-	
+.works {
+	display: flex;
+}
+
+.works__col {
+	flex: 1 1 0;
+}
+
+.works__item {
+	position: relative;
+
+	background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.works__item:hover .works__image{
+	opacity: .1;
+}
+
+.works__item:hover .works__info{
+	opacity: 1;
+}
+
+.works__image {
+	display: block;
+	transition: opacity .2s linear;
+}
+
+.works__info {
+	width: 100%;
+	padding: 0 15px;
+
+	text-align: center;
+	color: #fff;
+	opacity: 0;
+
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 1;
+
+	transform: translate3d(0, -50%, 0);
+	transition: opacity .2s linear;
+}
+
+.works__title {
+	margin-bottom: 5px;
+
+	/* color: #fff; */
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.works__text {
+	font-size: 15px;
+	font-weight: 300;
+	font-style: italic;
 }
