@@ -843,13 +843,6 @@ hr {
 	bottom: 10px;
 	left: -10px;
 	z-index: 1;
-
-	/*
-	border: 1px solid black;
-	padding: 10px;
-	background: white;
-	opacity: .5;
-	*/
 }
 
 .blog__date-day {
@@ -908,4 +901,3 @@ hr {
 .blog-stat__item i {
 	color: #95e1d3;
 }
-
