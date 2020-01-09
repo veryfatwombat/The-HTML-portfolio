@@ -244,6 +244,10 @@ hr {
 	background-color: #f8f8f8;
 }
 
+.section--map {
+	background-color: #e6e6e6; 
+}
+
 .section__header {
 	width: 100%;
 	max-width: 950px;
@@ -739,7 +743,6 @@ hr {
 .works__title {
 	margin-bottom: 5px;
 
-	/* color: #fff; */
 	font-size: 14px;
 	text-transform: uppercase;
 }
@@ -900,4 +903,22 @@ hr {
 
 .blog-stat__item i {
 	color: #95e1d3;
+}
+
+.map {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	height: 10vh;
+
+	background: url("../images/map-bg.jpg") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+	text-decoration: none;
+}
+
+.map__title {
+	
 }
