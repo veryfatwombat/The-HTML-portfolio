@@ -225,8 +225,19 @@ hr {
 	padding: 80px 0;
 }
 
+.section--gray {
+	background-color: #f8f8f8;
+}
+
 .section--clients {
 	background: #f5f5f5 url("../images/clients-bg.jpg") center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.section--map {
+	padding: 40px 0; 
+	background: #e6e6e6 url("../images/map-bg.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -238,14 +249,6 @@ hr {
 	background: url("../images/devices-bg.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-}
-
-.section--gray {
-	background-color: #f8f8f8;
-}
-
-.section--map {
-	background-color: #e6e6e6; 
 }
 
 .section__header {
@@ -906,7 +909,9 @@ hr {
 }
 
 .map {
-	display: flex;
+	text-align: center;
+
+	/* display: flex;
 	flex-direction: column;
 	justify-content: center;
 	width: 100%;
@@ -915,10 +920,31 @@ hr {
 	background: url("../images/map-bg.jpg") center no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
-
-	text-decoration: none;
+ */
 }
 
 .map__title {
-	
+	font-size: 24px;
+	color: #f38181;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.map__title a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.map__title a:hover {
+	text-decoration: underline;
+}
+
+.map__title:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	margin: 15px auto 0;
+
+	background-color: #f38181;
 }
