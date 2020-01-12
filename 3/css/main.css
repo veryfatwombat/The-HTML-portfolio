@@ -295,9 +295,6 @@ hr {
 
 .about__item {
 	width: 380px;
-	/* position: relative;
-
-	background-color: #95e1d3; */
 }
 
 .about__inner {
@@ -529,8 +526,6 @@ hr {
 }
 
 .reviews__text {
-	/* padding: 100px; */
-
 	margin-bottom: 15px;
 
 	font-size: 24px;
@@ -780,10 +775,6 @@ hr {
 	z-index: 1;
 }
 
-.clients__content {
-	
-}
-
 .clients__name {
 	margin-bottom: 5px;
 
@@ -894,10 +885,6 @@ hr {
 	color: #999;
 }
 
-.blog-stat {
-
-}
-
 .blog-stat__item {
 	display: inline-block;
 	vertical-align: top;
@@ -910,17 +897,6 @@ hr {
 
 .map {
 	text-align: center;
-
-	/* display: flex;
-	flex-direction: column;
-	justify-content: center;
-	width: 100%;
-	height: 10vh;
-
-	background: url("../images/map-bg.jpg") center no-repeat;
-	-webkit-background-size: cover;
-	background-size: cover;
- */
 }
 
 .map__title {
@@ -1026,10 +1002,6 @@ hr {
 
 	font-size: 18px;
 	color: #95e1d3;
-
-	/*
-	text-decoration: none;
-	*/
 }
 
 .subscribe {
@@ -1113,10 +1085,6 @@ hr {
 	color: #333;
 
 	margin: 30px 0;
-}
-
-.blogs {
-	
 }
 
 .blogs__item {
