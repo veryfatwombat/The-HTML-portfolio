@@ -1182,11 +1182,11 @@ hr {
 @media (max-width: 650px) {
 	
 	.intro__suptitle {
-		font-size: 32px;
+		font-size: 22px;
 	}
 
 	.intro__title {
-		font-size: 80px;
+		font-size: 40px;
 	}
 
 }
