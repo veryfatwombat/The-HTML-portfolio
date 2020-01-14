@@ -1166,3 +1166,27 @@ hr {
 	}
 
 }
+
+@media (max-width: 990px) {
+	
+	.intro__suptitle {
+		font-size: 32px;
+	}
+
+	.intro__title {
+		font-size: 80px;
+	}
+
+}
+
+@media (max-width: 650px) {
+	
+	.intro__suptitle {
+		font-size: 32px;
+	}
+
+	.intro__title {
+		font-size: 80px;
+	}
+
+}
