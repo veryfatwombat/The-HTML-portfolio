@@ -1179,8 +1179,44 @@ hr {
 
 }
 
-@media (max-width: 650px) {
+@media (max-width: 770px) {
 	
+	.nav {
+		display: none;
+	}
+
+	.intro__suptitle {
+		font-size: 22px;
+	}
+
+	.intro__title {
+		font-size: 40px;
+	}
+
+}
+
+@media (max-width: 650px) {
+		
+	.nav {
+		display: none;
+	}
+
+	.intro__suptitle {
+		font-size: 22px;
+	}
+
+	.intro__title {
+		font-size: 40px;
+	}
+
+}
+
+@media (max-width: 575px) {
+		
+	.nav {
+		display: none;
+	}
+
 	.intro__suptitle {
 		font-size: 22px;
 	}
