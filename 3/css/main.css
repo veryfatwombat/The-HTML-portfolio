@@ -238,9 +238,10 @@ hr {
 
 .section--map {
 	padding: 40px 0; 
+
 	background: #e6e6e6 url("../images/map-bg.jpg") center no-repeat;
 	-webkit-background-size: cover;
-	background-size: cover;
+	background-size: cover; 
 }
 
 .section--devices {
@@ -581,7 +582,7 @@ hr {
 }
 
 .card {
-	margin-top: 80px -15px 0;
+	margin: 80px -15px 0;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
