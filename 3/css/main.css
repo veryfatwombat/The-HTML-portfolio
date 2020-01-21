@@ -1222,12 +1222,14 @@ hr {
 	}	
 
 	.card {
+		margin-top: 50px;
 		justify-content: center;	
 	}
 
 	.card__item {
 		width: 100%;
 		max-width: 410px;
+		margin-bottom: 30px;
 	}
 
 }
