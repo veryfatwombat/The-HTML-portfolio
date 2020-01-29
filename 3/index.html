@@ -12,7 +12,7 @@
     </head>
     <body>
 
-        <header class="header">
+        <header class="header" id="header">
             <div class="container">
                 <div class="header__inner">
                     <div class="header__logo">NDA Agancy
@@ -31,13 +31,18 @@
                             <i class="fas fa-search"></i>
                         </a>
                     </nav>
+                    <button class="nav-toggle" type="button">
+                        <span class="nav-toggle__item">
+                            Menu
+                        </span>
+                    </button>  
                 </div>
             </div>
         </header>
 
         <div class="page">
 
-            <div class="intro">
+            <div class="intro" id="intro">
                 <div class="container">
                     <div class="intro__inner">
                         <h2 class="intro__suptitle">Do you need a website or app?</h2>
@@ -767,6 +772,9 @@
             </footer>
 
         </div><!-- /.page -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/js.js"></script>
 
     </body>
 </html>
