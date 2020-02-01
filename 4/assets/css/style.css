@@ -360,9 +360,7 @@ hr {
 
 .section--map {
     padding: 40px 0;
-    background: #e6e6e6 url("../images/map-bg.jpg") center no-repeat;
-    -webkit-background-size: cover;
-    background-size: cover;
+    background: #e6e6e6 url("../images/map-bg.jpg") center no-repeat / cover;
 }
 
 .section__header {
