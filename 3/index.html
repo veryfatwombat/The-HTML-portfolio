@@ -15,15 +15,15 @@
         <header class="header" id="header">
             <div class="container">
                 <div class="header__inner">
-                    <div class="header__logo">NDA Agency
+                    <div class="header__logo" data-scroll="#intro">NDA Agency
                     </div>
 
-                    <nav class="nav">
-                        <a class="nav__link active" href="#">About</a>
-                        <a class="nav__link" href="#">Service</a>
-                        <a class="nav__link" href="#">Blog</a>
-                        <a class="nav__link" href="#">Work</a>
-                        <a class="nav__link" href="#">Contact</a>
+                    <nav class="nav" id="nav">
+                        <a class="nav__link active" href="#" data-scroll="#about">About</a>
+                        <a class="nav__link" href="#" data-scroll="#service">Service</a>
+                        <a class="nav__link" href="#" data-scroll="#blog">Blog</a>
+                        <a class="nav__link" href="#" data-scroll="#work">Work</a>
+                        <a class="nav__link" href="#" data-scroll="#footer">Contact</a>
                         <a class="nav__link" href="#">
                             <i class="fas fa-shopping-cart"></i>
                         </a>
@@ -31,7 +31,7 @@
                             <i class="fas fa-search"></i>
                         </a>
                     </nav>
-                    <button class="nav-toggle" type="button">
+                    <button class="nav-toggle" id="nav-toggle" type="button">
                         <span class="nav-toggle__item">
                             Menu
                         </span>
@@ -77,7 +77,7 @@
 
             </div><!-- /.intro -->
 
-            <section class="section">
+            <section class="section" id="about">
                 <div class="container">
 
                     <div class="section__header">
@@ -149,7 +149,7 @@
                 </div>
             </div>
 
-            <section class="section">
+            <section class="section" id="service">
                 <div class="container">
 
                     <div class="section__header">
@@ -235,32 +235,32 @@
 
                             <div class="accordion">
                                 <div class="accordion__item">
-                                    <div class="accordion__header">
+                                    <div class="accordion__header" data-collapse="#wedo_1">
                                         <img class="accordion__icon" src="assets/images/services/photography.png" alt="photography">
                                         <div class="accordion__title">Photography
                                         </div>
                                     </div>
-                                    <div class="accordion__content">
+                                    <div class="accordion__content" id="wedo_1">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                     </div>
                                 </div>
 
                                 <div class="accordion__item active">
-                                    <div class="accordion__header">
+                                    <div class="accordion__header" data-collapse="#wedo_2">
                                         <img class="accordion__icon" src="assets/images/services/creativity.png" alt="creativity">
                                         <div class="accordion__title">Creativity</div>
                                     </div>
-                                    <div class="accordion__content">
+                                    <div class="accordion__content" id="wedo_2">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                     </div>
                                 </div>
 
                                 <div class="accordion__item">
-                                    <div class="accordion__header">
+                                    <div class="accordion__header" data-collapse="#wedo_3">
                                         <img class="accordion__icon" src="assets/images/services/webdesign.png" alt="webdesign">
                                         <div class="accordion__title">web design</div>
                                     </div>
-                                    <div class="accordion__content">
+                                    <div class="accordion__content" id="wedo_3">
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                     </div>
                                 </div>
@@ -417,7 +417,7 @@
                 </div>
             </div>
 
-            <section class="section">
+            <section class="section" id="work">
                 <div class="container">
                     <div class="section__header">
                         <h3 class="section__suptitle">What we do</h3>
@@ -558,7 +558,7 @@
                 </div><!-- /.container -->
             </section>
 
-            <section class="section">
+            <section class="section" id="blog">
                 <div class="container">
 
                     <div class="section__header">
@@ -666,7 +666,7 @@
                 </div>
             </section>
 
-            <footer class="footer">
+            <footer class="footer" id="footer">
                 <div class="container">
 
                     <div class="footer__inner">
@@ -774,7 +774,8 @@
         </div><!-- /.page -->
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="js/js.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <script src="js/app.js"></script>
 
     </body>
 </html>
