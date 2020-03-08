@@ -10,6 +10,11 @@ html{
     font-family: 'Roboto', sans-serif;
     color: #eee;
 }
+
+body{
+    width: 100%;
+    height: 100%;
+}
 /*End global*/
 
 /*Start reusable*/
