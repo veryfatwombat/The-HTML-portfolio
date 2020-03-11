@@ -22,6 +22,10 @@ a{
     text-decoration: none;
     color: #eee;
 }
+
+p{
+    font-size: 1.8rem;
+}
 /*End global*/
 
 /*Start reusable*/
