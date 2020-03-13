@@ -27,6 +27,10 @@ p{
     font-size: 1.8rem;
     font-weight: 300;
 }
+
+img{
+    width: 100%;
+}
 /*End global*/
 
 /*Start reusable*/
