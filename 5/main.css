@@ -37,6 +37,10 @@ img{
 /*End reusable*/
 
 /*Start header*/
+header{
+    width: 100%;
+    height: 100vh;
+}
 /*End header*/
 
 /*Start about*/
