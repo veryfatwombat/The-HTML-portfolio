@@ -47,6 +47,7 @@ header{
     height: 100vh;
     position: fixed;
     background-color: #16162d;
+    border-bottom-right-radius: 100%;
 }
 /*End header*/
 
