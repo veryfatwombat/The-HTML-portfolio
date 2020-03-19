@@ -48,6 +48,7 @@ header{
     position: fixed;
     background-color: #16162d;
     border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
 }
 /*End header*/
 
