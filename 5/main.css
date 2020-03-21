@@ -51,6 +51,10 @@ header{
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
 }
+
+.nav-list{
+    list-style: none;
+}
 /*End header*/
 
 /*Start about*/
