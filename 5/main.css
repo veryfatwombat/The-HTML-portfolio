@@ -60,6 +60,10 @@ header{
     justify-content: center;
     align-items: center;
 }
+
+li{
+    margin: 0 2rem;
+}
 /*End header*/
 
 /*Start about*/
