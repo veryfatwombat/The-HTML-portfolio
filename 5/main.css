@@ -64,6 +64,10 @@ header{
 li{
     margin: 0 2rem;
 }
+
+.nav-link{
+    font-family: 'The Historia Demo', sans-serif;
+}
 /*End header*/
 
 /*Start about*/
