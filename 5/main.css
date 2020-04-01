@@ -78,6 +78,11 @@ li{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.top-nav.open{
+    top: 0;
+    border-radius: initial;
+}
 /*End header*/
 
 /*Start about*/
