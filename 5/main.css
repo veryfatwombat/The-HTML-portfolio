@@ -85,6 +85,10 @@ li{
 }
 /*End header*/
 
+.menu-toggler{
+    position: absolute;
+}
+
 /*Start about*/
 /*End about*/
 
