@@ -92,6 +92,7 @@ li{
     width: 5rem;
     height: 4rem;
     display: flex;
+    flex-direction: column;
 }
 
 /*Start about*/
