@@ -93,6 +93,8 @@ li{
     height: 4rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
 }
 
 /*Start about*/
