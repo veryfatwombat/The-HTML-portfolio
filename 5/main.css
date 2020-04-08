@@ -96,8 +96,12 @@ li{
     justify-content: space-between;
     cursor: pointer;
     z-index: 1500;
+    transition: transform 650ms ease-out;
 }
 
+.menu-toggler.open{
+    transform: rotate(-45deg);
+}
 /*Start about*/
 /*End about*/
 
