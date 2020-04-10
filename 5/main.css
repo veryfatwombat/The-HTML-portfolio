@@ -102,6 +102,10 @@ li{
 .menu-toggler.open{
     transform: rotate(-45deg);
 }
+
+.bar{
+    background: linear-gradient(to right, #ffe838, #fd57bf);
+}
 /*Start about*/
 /*End about*/
 
