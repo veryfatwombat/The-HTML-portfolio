@@ -105,6 +105,8 @@ li{
 
 .bar{
     background: linear-gradient(to right, #ffe838, #fd57bf);
+    width: 100%;
+    height: 4px;
 }
 /*Start about*/
 /*End about*/
