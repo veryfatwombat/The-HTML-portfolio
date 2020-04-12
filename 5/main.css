@@ -109,6 +109,10 @@ li{
     height: 4px;
     border-radius: .8rem;
 }
+
+.bar.half{
+    width: 50%;
+}
 /*Start about*/
 /*End about*/
 
