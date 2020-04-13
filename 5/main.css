@@ -113,6 +113,10 @@ li{
 .bar.half{
     width: 50%;
 }
+
+.bar.start{
+    transform-origin: right;
+}
 /*Start about*/
 /*End about*/
 
