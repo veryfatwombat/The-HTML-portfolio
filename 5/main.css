@@ -116,7 +116,9 @@ li{
 
 .bar.start{
     transform-origin: right;
+    transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
 }
+
 /*Start about*/
 /*End about*/
 
