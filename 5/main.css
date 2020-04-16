@@ -119,10 +119,18 @@ li{
     transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
 }
 
+.open .bar.start{
+    transform: rotate(-450deg) translateX(.8rem);
+}
+
 .bar.end{
     align-self: flex-end;
     transform-origin: left;
     transition: transform 650ms cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
+
+.open .bar.end{
+    transform: rotate(-450deg) translateX(-.8rem);
 }
 
 /*Start about*/
