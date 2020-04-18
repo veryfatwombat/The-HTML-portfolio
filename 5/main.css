@@ -133,6 +133,9 @@ li{
     transform: rotate(-450deg) translateX(-.8rem);
 }
 
+.landing-text{
+    position: absolute;
+}
 /*Start about*/
 /*End about*/
 
