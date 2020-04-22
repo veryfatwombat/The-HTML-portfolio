@@ -47,6 +47,7 @@ header{
     height: 100vh;
     position: fixed;
     top: -100vh;
+    z-index: 50;
     background-color: #16162d;
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
@@ -141,6 +142,10 @@ li{
     width: 100%;
     text-align: center;
     z-index: 1;
+}
+
+.landing-text h1{
+    font-size: 20rem;
 }
 /*Start about*/
 /*End about*/
