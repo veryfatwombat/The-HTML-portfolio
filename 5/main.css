@@ -1,4 +1,6 @@
 /*Start global*/
+@import url(//db.onlinewebfonts.com/c/0923ee644c97a87d70269aa80a6f1e79?family=The+Historia+Demo);
+
 *{
     margin: 0;
     padding: 0;
@@ -147,6 +149,9 @@ li{
 .landing-text h1{
     font-size: 20rem;
     font-family: 'The Historia Demo', sans-serif;
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /*Start about*/
 /*End about*/
