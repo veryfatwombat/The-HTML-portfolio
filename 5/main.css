@@ -153,6 +153,7 @@ li{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
+    user-select: none;
 }
 /*Start about*/
 /*End about*/
