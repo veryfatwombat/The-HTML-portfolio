@@ -155,6 +155,10 @@ li{
     padding: 1rem;
     user-select: none;
 }
+
+.landing-text h6{
+    font-size: 2rem;
+}
 /*Start about*/
 /*End about*/
 
