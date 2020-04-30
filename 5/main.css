@@ -161,6 +161,9 @@ li{
     font-weight: 300;
 }
 /*Start about*/
+.about .container{
+    display: flex;
+}
 /*End about*/
 
 /*Start services*/
