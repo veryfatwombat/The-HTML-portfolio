@@ -163,6 +163,8 @@ li{
 /*Start about*/
 .about .container{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /*End about*/
 
