@@ -168,7 +168,8 @@ li{
 }
 
 .about-heading{
-    font-size: 18rem;
+    font-size: 10rem;
+    opacity: .3;
 }
 /*End about*/
 
