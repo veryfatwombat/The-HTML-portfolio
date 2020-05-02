@@ -166,6 +166,10 @@ li{
     align-items: center;
     justify-content: center;
 }
+
+.about-heading{
+    font-size: 18rem;
+}
 /*End about*/
 
 /*Start services*/
