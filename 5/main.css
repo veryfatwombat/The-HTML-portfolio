@@ -167,9 +167,14 @@ li{
     justify-content: center;
 }
 
-.about-heading{
+.about-heading h1{
     font-size: 10rem;
     opacity: .3;
+}
+
+.about-heading h6{
+    font-size: 2rem;
+    font-weight: 300;
 }
 /*End about*/
 
