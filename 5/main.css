@@ -167,6 +167,10 @@ li{
     justify-content: center;
 }
 
+.about-heading{
+    text-align: center;
+}
+
 .about-heading h1{
     font-size: 10rem;
     opacity: .3;
