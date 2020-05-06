@@ -170,6 +170,7 @@ li{
 .about-heading{
     text-align: center;
     text-transform: uppercase;
+    line-height: 0;
 }
 
 .about-heading h1{
