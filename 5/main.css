@@ -183,6 +183,11 @@ li{
     font-size: 2rem;
     font-weight: 300;
 }
+
+.profile-img{
+    flex: 1;
+}
+
 /*End about*/
 
 /*Start services*/
