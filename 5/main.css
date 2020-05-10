@@ -189,6 +189,9 @@ li{
     margin-right: 5rem;
 }
 
+.about-details{
+    flex: 1;
+}
 /*End about*/
 
 /*Start services*/
