@@ -192,6 +192,10 @@ li{
 .about-details{
     flex: 1;
 }
+
+.social-media{
+    margin-top: 5rem;
+}
 /*End about*/
 
 /*Start services*/
