@@ -196,6 +196,10 @@ li{
 .social-media{
     margin-top: 5rem;
 }
+
+.social-media i{
+    font-size: 5rem;
+}
 /*End about*/
 
 /*Start services*/
