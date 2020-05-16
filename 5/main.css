@@ -201,6 +201,10 @@ li{
     font-size: 5rem;
     transition: 650ms;
 }
+
+.fa-facebook-square:hover{
+    color: 4267b2;
+}
 /*End about*/
 
 /*Start services*/
