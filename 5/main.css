@@ -203,7 +203,15 @@ li{
 }
 
 .fa-facebook-square:hover{
-    color: 4267b2;
+    color: #4267b2;
+}
+
+.fa-twitter-square:hover{
+    color: #38a1f3;
+}
+
+.fa-instagram-square:hover{
+    color: #ea4c89;
 }
 /*End about*/
 
