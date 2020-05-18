@@ -36,6 +36,11 @@ img{
 /*End global*/
 
 /*Start reusable*/
+.container{
+    width: 90%;
+    max-width: 120rem;
+    height: 100%;
+}
 /*End reusable*/
 
 /*Start header*/
@@ -212,6 +217,10 @@ li{
 
 .fa-instagram-square:hover{
     color: #ea4c89;
+}
+
+.my-skills{
+    margin-top: 10rem;
 }
 /*End about*/
 
