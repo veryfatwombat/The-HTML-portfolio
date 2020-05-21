@@ -43,6 +43,10 @@ img{
     margin: 0 auto;
     position: relative;
 }
+
+.section-heading{
+    text-align: center;
+}
 /*End reusable*/
 
 /*Start header*/
