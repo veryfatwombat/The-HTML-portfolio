@@ -48,6 +48,10 @@ img{
     text-align: center;
     margin-top: 10rem;
 }
+
+.section-heading h1{
+    font-size: 3.5rem;
+}
 /*End reusable*/
 
 /*Start header*/
