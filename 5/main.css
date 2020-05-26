@@ -57,6 +57,10 @@ img{
     position: relative;
     margin-bottom: 1rem;
 }
+
+.section-heading h6{
+    font-size: 1.6rem;
+}
 /*End reusable*/
 
 /*Start header*/
