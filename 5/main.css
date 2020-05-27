@@ -58,6 +58,12 @@ img{
     margin-bottom: 1rem;
 }
 
+.section-heading h1::before,
+.section-heading h1::after{
+    content: "";
+    position: absolute;
+}
+
 .section-heading h6{
     font-size: 1.6rem;
     font-weight: 300;
