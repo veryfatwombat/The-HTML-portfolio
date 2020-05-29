@@ -63,6 +63,8 @@ img{
     content: "";
     position: absolute;
     bottom: -.5rem;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .section-heading h6{
