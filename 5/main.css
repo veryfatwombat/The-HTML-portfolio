@@ -71,6 +71,7 @@ img{
 .section-heading h1::before{
     width: 10rem;
     height: 3px;
+    border-radius: .8rem;
 }
 
 .section-heading h6{
