@@ -74,6 +74,12 @@ img{
     border-radius: .8rem;
 }
 
+.section-heading h1::after{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+}
+
 .section-heading h6{
     font-size: 1.6rem;
     font-weight: 300;
