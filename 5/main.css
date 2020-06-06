@@ -269,7 +269,7 @@ li{
 .my-skills{
     margin-top: 10rem;
     display: grid;
-    /* grid-template-columns: ; */
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 /*End services*/
 
