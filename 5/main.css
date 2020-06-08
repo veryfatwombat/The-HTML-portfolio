@@ -273,6 +273,11 @@ li{
     grid-gap: 2.5rem;
     text-align: center;
 }
+
+.skill{
+    display: flex;
+    flex-direction: column;
+}
 /*End services*/
 
 /*Start portfolio*/
