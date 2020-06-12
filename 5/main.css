@@ -281,6 +281,10 @@ li{
     align-items: center;
     padding: 2rem;
 }
+
+.skill h1{
+    text-transform: uppercase;
+}
 /*End services*/
 
 /*Start portfolio*/
