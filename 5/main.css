@@ -287,6 +287,11 @@ li{
     letter-spacing: 2px;
     margin: 2rem -2px 2rem 0;
 }
+
+.icon-container{
+    width: 10rem;
+    height: 10rem;
+}
 /*End services*/
 
 /*Start portfolio*/
