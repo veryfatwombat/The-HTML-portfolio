@@ -295,6 +295,11 @@ li{
     background-color: #fd57bf;
     margin-bottom: 2rem;
     display: flex;
+    transform: rotate(45deg);
+}
+
+.icon-container i{
+
 }
 /*End services*/
 
