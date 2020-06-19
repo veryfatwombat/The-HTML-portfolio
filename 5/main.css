@@ -299,7 +299,9 @@ li{
 }
 
 .icon-container i{
-
+    color: #ffe838;
+    font-size: 5rem;
+    margin: auto;
 }
 /*End services*/
 
