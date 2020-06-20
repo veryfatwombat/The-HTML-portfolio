@@ -302,6 +302,7 @@ li{
     color: #ffe838;
     font-size: 5rem;
     margin: auto;
+    transform: rotate(-45deg);
 }
 /*End services*/
 
