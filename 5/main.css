@@ -307,6 +307,9 @@ li{
 /*End services*/
 
 /*Start portfolio*/
+.portfolio-item{
+    display: flex;
+}
 /*End services*/
 
 /*Start timeline*/
