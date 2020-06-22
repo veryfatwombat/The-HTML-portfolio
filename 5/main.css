@@ -309,6 +309,7 @@ li{
 /*Start portfolio*/
 .portfolio-item{
     display: flex;
+    align-items: center;
 }
 /*End services*/
 
