@@ -319,7 +319,11 @@ li{
 }
 
 .profile-img{
-    flex: 1
+    flex: 1;
+}
+
+.portfolio-description{
+    flex: 1;
 }
 /*End services*/
 
