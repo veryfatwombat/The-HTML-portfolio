@@ -317,6 +317,10 @@ li{
 .portfolio-item:last-child{
     margin-bottom: 0;
 }
+
+.profile-img{
+    flex: 1
+}
 /*End services*/
 
 /*Start timeline*/
