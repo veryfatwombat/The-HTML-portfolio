@@ -325,6 +325,10 @@ li{
 .portfolio-description{
     flex: 1;
 }
+
+.portfolio-description h6{
+    font-size: 1.5rem;
+}
 /*End services*/
 
 /*Start timeline*/
