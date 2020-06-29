@@ -85,6 +85,10 @@ img{
     font-size: 1.6rem;
     font-weight: 300;
 }
+
+.has-margin-right{
+    margin-right: 5rem;
+}
 /*End reusable*/
 
 /*Start header*/
