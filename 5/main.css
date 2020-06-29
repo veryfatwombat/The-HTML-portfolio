@@ -329,6 +329,7 @@ li{
 .portfolio-description h6{
     font-size: 1.5rem;
     text-transform: uppercase;
+    font-weight: 300;
 }
 /*End services*/
 
