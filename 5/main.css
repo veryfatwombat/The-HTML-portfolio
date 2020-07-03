@@ -20,6 +20,10 @@ body{
     background-size: cover;
 }
 
+section{
+    padding: 6rem;
+}
+
 a{
     text-decoration: none;
     color: #eee;
