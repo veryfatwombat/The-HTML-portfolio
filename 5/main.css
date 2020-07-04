@@ -334,6 +334,12 @@ li{
 .portfolio-description{
 }
 
+.portfolio-description h1{
+    font-size: 3rem;
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
 .portfolio-description h6{
     font-size: 1.5rem;
     text-transform: uppercase;
