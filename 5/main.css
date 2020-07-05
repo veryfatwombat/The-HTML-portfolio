@@ -346,6 +346,10 @@ li{
     font-weight: 300;
     opacity: 0.3;
 }
+
+.portfolio-description .cta{
+    display: inline-block;
+}
 /*End services*/
 
 /*Start timeline*/
