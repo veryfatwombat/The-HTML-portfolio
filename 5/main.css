@@ -349,6 +349,8 @@ li{
 
 .portfolio-description .cta{
     display: inline-block;
+    margin-top: 2.5rem;
+    font-size: 1.5rem;
 }
 /*End services*/
 
