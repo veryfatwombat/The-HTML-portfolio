@@ -354,6 +354,10 @@ li{
     text-transform: uppercase;
     color: #3883ff;
 }
+
+.portfolio-description .cta:hover{
+    color: #2f67cd;
+}
 /*End services*/
 
 /*Start timeline*/
