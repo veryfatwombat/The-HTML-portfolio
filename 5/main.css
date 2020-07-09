@@ -361,6 +361,9 @@ li{
 /*End services*/
 
 /*Start timeline*/
+.timeline ul{
+    border-left: 4px solid #ffe838;
+}
 /*End timeline*/
 
 /*Start contact*/
