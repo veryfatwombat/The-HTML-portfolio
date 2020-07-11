@@ -365,6 +365,8 @@ li{
     border-left: 4px solid #ffe838;
     border-radius: .8rem;
     background-color: rgba(0,0,0,0.05);
+    margin: 0 auto;
+    position: relative;
 }
 /*End timeline*/
 
