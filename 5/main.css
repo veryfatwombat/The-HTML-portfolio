@@ -367,6 +367,10 @@ li{
     background-color: rgba(0,0,0,0.05);
     margin: 0 auto;
     position: relative;
+    padding: 5rem;
+    list-style: none;
+    text-align: left;
+    width: 70%;
 }
 /*End timeline*/
 
