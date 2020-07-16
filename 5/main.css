@@ -380,6 +380,10 @@ li{
     margin-bottom: 1rem;
     opacity: .3;
 }
+
+.timeline .date{
+    border-bottom: 1px solid rgba(255,255255, 0.1);
+}
 /*End timeline*/
 
 /*Start contact*/
