@@ -387,6 +387,12 @@ li{
     padding-bottom: 1rem;
     position: relative;
 }
+
+.timeline .date:last-of-type{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
 /*End timeline*/
 
 /*Start contact*/
