@@ -393,6 +393,12 @@ li{
     margin-bottom: 0;
     border: none;
 }
+
+.timeline .date::before
+.timeline .date::after{
+    position: absolute;
+}
+
 /*End timeline*/
 
 /*Start contact*/
