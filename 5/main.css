@@ -398,6 +398,7 @@ li{
 .timeline .date::after{
     position: absolute;
     display: block;
+    top: 50%;
 }
 
 /*End timeline*/
