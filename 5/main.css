@@ -394,11 +394,12 @@ li{
     border: none;
 }
 
-.timeline .date::before
+.timeline .date::before,
 .timeline .date::after{
     position: absolute;
     display: block;
     top: 50%;
+    transform: translateY(-50%);
 }
 
 /*End timeline*/
