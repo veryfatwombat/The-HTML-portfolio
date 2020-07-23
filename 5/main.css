@@ -402,6 +402,10 @@ li{
     transform: translateY(-50%);
 }
 
+.timeline .date::before{
+    content: attr(data-date);
+}
+
 /*End timeline*/
 
 /*Start contact*/
