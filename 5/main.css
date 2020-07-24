@@ -404,6 +404,7 @@ li{
 
 .timeline .date::before{
     content: attr(data-date);
+    left: -21rem;
 }
 
 /*End timeline*/
