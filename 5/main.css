@@ -406,6 +406,7 @@ li{
     content: attr(data-date);
     left: -21rem;
     text-align: right;
+    min-width: 12rem;
 }
 
 /*End timeline*/
