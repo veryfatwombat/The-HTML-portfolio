@@ -410,6 +410,10 @@ li{
     font-size: 1.5rem;
 }
 
+.timeline .date::after{
+    content: '';
+    box-shadow: 0 0 0 4px #fd57bf;
+}
 /*End timeline*/
 
 /*Start contact*/
