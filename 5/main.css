@@ -414,9 +414,10 @@ li{
     content: '';
     box-shadow: 0 0 0 4px #fd57bf;
     border-radius: 100%;
-    left: -7.7rem;
+    left: -8rem;
     height: 1.5rem;
     width: 1.5rem;
+    background-color: #313534;
 }
 /*End timeline*/
 
