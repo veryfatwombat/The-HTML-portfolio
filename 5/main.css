@@ -425,6 +425,11 @@ li{
 .contact{
     background-color: #221e3f;
 }
+
+form{
+    width: 70%;
+    margin: 0 auto;
+}
 /*End contact*/
 
 /*Start footer*/
