@@ -434,6 +434,12 @@ form{
 form label{
     font-size: 1.5rem;
 }
+
+input,
+select,
+textarea{
+    width: 100%;
+}
 /*End contact*/
 
 /*Start footer*/
