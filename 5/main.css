@@ -441,6 +441,8 @@ textarea{
     width: 100%;
     padding: 1rem;
     margin-top: 5px;
+    border: none;
+    outline-color: #fd57df;
 }
 /*End contact*/
 
