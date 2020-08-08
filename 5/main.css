@@ -448,6 +448,8 @@ textarea{
 input[type="submit"]{
     width: initial;
     background-color: #fd57bf;
+    color: #eee;
+    padding: 1rem 2rem;
 }
 /*End contact*/
 
