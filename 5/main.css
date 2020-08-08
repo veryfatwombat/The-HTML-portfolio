@@ -444,6 +444,11 @@ textarea{
     border: none;
     outline-color: #fd57df;
 }
+
+input[type="submit"]{
+    width: initial;
+    background-color: #fd57bf;
+}
 /*End contact*/
 
 /*Start footer*/
