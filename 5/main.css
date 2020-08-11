@@ -451,6 +451,8 @@ input[type="submit"]{
     color: #eee;
     padding: 1rem 2rem;
     border-radius: .8rem;
+    cursor: pointer;
+    transition: background-color 650ms;
 }
 /*End contact*/
 
