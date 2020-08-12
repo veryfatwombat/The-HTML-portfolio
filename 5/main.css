@@ -454,6 +454,11 @@ input[type="submit"]{
     cursor: pointer;
     transition: background-color 650ms;
 }
+
+input[type="submit"]:hover{
+    color: #222e3f;
+    background-color: #ff3838;
+}
 /*End contact*/
 
 /*Start footer*/
