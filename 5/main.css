@@ -462,6 +462,9 @@ input[type="submit"]:hover{
 /*End contact*/
 
 /*Start footer*/
+.copyright{
+    width: 100%;
+}
 /*End footer*/
 
 /*Start animations*/
