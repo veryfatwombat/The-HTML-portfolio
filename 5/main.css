@@ -465,6 +465,7 @@ input[type="submit"]:hover{
 .copyright{
     width: 100%;
     text-align: center;
+    background-color: #16162d;
 }
 /*End footer*/
 
