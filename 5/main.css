@@ -469,6 +469,10 @@ input[type="submit"]:hover{
     padding: 2rem 0;
     position: relative;
 }
+
+.up{
+    position: absolute;
+}
 /*End footer*/
 
 /*Start animations*/
