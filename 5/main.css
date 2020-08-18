@@ -472,6 +472,8 @@ input[type="submit"]:hover{
 
 .up{
     position: absolute;
+    width: 5rem;
+    height: 5rem;
 }
 /*End footer*/
 
