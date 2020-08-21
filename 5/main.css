@@ -479,6 +479,11 @@ input[type="submit"]:hover{
     right: 5rem;
     border-radius: 100%;
 }
+
+.up i{
+    color: #16162d;
+    font-size: 2rem;
+}
 /*End footer*/
 
 /*Start animations*/
