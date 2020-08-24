@@ -484,6 +484,7 @@ input[type="submit"]:hover{
 .up i{
     color: #16162d;
     font-size: 2rem;
+    margin: auto;
 }
 /*End footer*/
 
