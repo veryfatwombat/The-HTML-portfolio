@@ -486,6 +486,10 @@ input[type="submit"]:hover{
     font-size: 2rem;
     margin: auto;
 }
+
+.copyright p{
+    font-size: 1.4rem;
+}
 /*End footer*/
 
 /*Start animations*/
