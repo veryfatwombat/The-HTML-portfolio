@@ -496,4 +496,8 @@ input[type="submit"]:hover{
 /*End animations*/
 
 /*Start media queries*/
+@keyframes pulse{
+    0%{}
+    70%{}
+}
 /*End media queries*/
