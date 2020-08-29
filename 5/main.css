@@ -497,8 +497,12 @@ input[type="submit"]:hover{
 
 /*Start media queries*/
 @keyframes pulse{
-    0%{box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);}
-    70%{}
+    0%{
+        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0.99);
+    }
+    70%{
+        box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+    }
     100%{}
 }
 /*End media queries*/
