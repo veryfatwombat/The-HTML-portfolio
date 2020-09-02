@@ -480,6 +480,7 @@ input[type="submit"]:hover{
     border-radius: 100%;
     display: flex;
     animation: pulse 2s infinite;
+    cursor: pointer;
 }
 
 .up i{
