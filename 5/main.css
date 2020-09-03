@@ -510,3 +510,10 @@ input[type="submit"]:hover{
     }
 }
 /*End media queries*/
+
+@media screen and (max-width: 768px) {
+    body{
+        background: url("images/sitebg.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+}
