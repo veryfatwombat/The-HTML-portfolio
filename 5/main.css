@@ -516,4 +516,8 @@ input[type="submit"]:hover{
         background: url("images/sitebg.jpg") no-repeat center fixed;
         background-size: cover;
     }
+
+    .landing-text h1{
+        font-size: 15rem;
+    }
 }
