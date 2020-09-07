@@ -524,4 +524,8 @@ input[type="submit"]:hover{
     .landing-text h6{
         font-size: 1.7rem;
     }
+
+    .nav-list{
+        flex-direction: column;
+    }
 }
