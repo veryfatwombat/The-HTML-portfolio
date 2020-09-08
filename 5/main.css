@@ -528,4 +528,8 @@ input[type="submit"]:hover{
     .nav-list{
         flex-direction: column;
     }
+
+    li{
+        margin: 2rem 0;
+    }
 }
