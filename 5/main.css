@@ -536,4 +536,8 @@ input[type="submit"]:hover{
     .nav-link{
         font-size: 4.5rem;
     }
+
+    .about-heading h1{
+        font-size: 8rem;
+    }
 }
