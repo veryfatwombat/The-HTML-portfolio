@@ -540,4 +540,8 @@ input[type="submit"]:hover{
     .about-heading h1{
         font-size: 8rem;
     }
+
+    .section-heading h1{
+        font-size: 3rem;
+    }
 }
