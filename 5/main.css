@@ -544,4 +544,8 @@ input[type="submit"]:hover{
     .section-heading h1{
         font-size: 3rem;
     }
+
+    .about-details .nav-list{
+        flex-direction: initial;
+    }
 }
