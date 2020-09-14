@@ -548,4 +548,8 @@ input[type="submit"]:hover{
     .about-details .nav-list{
         flex-direction: initial;
     }
+
+    .about-details li{
+        margin: 0 2rem;
+    }
 }
