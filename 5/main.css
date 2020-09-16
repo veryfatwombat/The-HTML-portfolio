@@ -557,4 +557,8 @@ input[type="submit"]:hover{
         width: 7rem;
         height: 7rem;
     }
+
+    .icon-container i{
+        font-size: 4rem;
+    }
 }
