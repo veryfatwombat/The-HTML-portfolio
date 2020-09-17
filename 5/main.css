@@ -561,4 +561,8 @@ input[type="submit"]:hover{
     .icon-container i{
         font-size: 4rem;
     }
+
+    .timeline ul{
+        margin: 0 0 0 auto;
+    }
 }
