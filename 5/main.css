@@ -565,4 +565,8 @@ input[type="submit"]:hover{
     .timeline ul{
         margin: 0 0 0 auto;
     }
+
+    .timeline .date:before{
+        left: -15rem;
+    }
 }
