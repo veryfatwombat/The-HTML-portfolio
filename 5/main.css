@@ -566,7 +566,11 @@ input[type="submit"]:hover{
         margin: 0 0 0 auto;
     }
 
-    .timeline .date:before{
-        left: -15rem;
+    .timeline .date::before{
+        left: -20rem;
+    }
+
+    .timeline .date::after{
+        left: -5.9rem;
     }
 }
