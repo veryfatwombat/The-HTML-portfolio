@@ -573,4 +573,11 @@ input[type="submit"]:hover{
     .timeline .date::after{
         left: -5.9rem;
     }
+
+    @media screen and (max-width: 600px) {
+        .menu-toggler{
+            top: 2rem;
+            right: 2rem;
+        }
+    }
 }
