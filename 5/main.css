@@ -579,5 +579,9 @@ input[type="submit"]:hover{
             top: 2rem;
             right: 2rem;
         }
+
+        .landing-text h1{
+            font-size: 8rem;
+        }
     }
 }
