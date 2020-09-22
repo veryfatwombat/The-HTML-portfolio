@@ -583,5 +583,9 @@ input[type="submit"]:hover{
         .landing-text h1{
             font-size: 8rem;
         }
+
+        .landing-text h6{
+            font-size: 1.4rem;
+        }
     }
 }
