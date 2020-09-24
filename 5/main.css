@@ -591,5 +591,9 @@ input[type="submit"]:hover{
         .nav-link{
             font-size: 3.5rem;
         }
+
+        .about .container{
+            flex-direction: column;
+        }
     }
 }
