@@ -595,5 +595,9 @@ input[type="submit"]:hover{
         .about .container{
             flex-direction: column;
         }
+
+        .profile-img{
+            margin: 0 0 7rem 0;
+        }
     }
 }
