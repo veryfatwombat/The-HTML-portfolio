@@ -603,5 +603,9 @@ input[type="submit"]:hover{
         .portfolio-item{
             flex-direction: column;
         }
+
+        .portfolio-img{
+            margin: 0 0 2rem 0;
+        }
     }
 }
