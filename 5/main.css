@@ -607,5 +607,9 @@ input[type="submit"]:hover{
         .portfolio-img{
             margin: 0 0 2rem 0;
         }
+
+        .portfolio-description{
+            margin: 0;
+        }
     }
 }
