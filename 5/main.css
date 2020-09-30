@@ -611,6 +611,7 @@ input[type="submit"]:hover{
 
         .portfolio-description{
             margin: 0;
+            order: 2;
         }
     }
 }
