@@ -613,5 +613,9 @@ input[type="submit"]:hover{
             margin: 0;
             order: 2;
         }
+
+        .timeline p{
+            font-size: 1.6rem;
+        }
     }
 }
