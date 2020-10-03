@@ -621,5 +621,9 @@ input[type="submit"]:hover{
         .timeline .date::before{
             font-size: 1.4rem;
         }
+
+        form{
+            width: 100%;
+        }
     }
 }
