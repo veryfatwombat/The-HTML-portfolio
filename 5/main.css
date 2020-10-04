@@ -625,5 +625,9 @@ input[type="submit"]:hover{
         form{
             width: 100%;
         }
+
+        .up{
+            right: 2rem;
+        }
     }
 }
