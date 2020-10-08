@@ -20,4 +20,9 @@ $(document).ready(function () {
             scrollTop: 0
         }, options: 2000);
     });
+
+    AOS.init({
+        easing: 'else',
+        duration: 1800
+    });
 });
