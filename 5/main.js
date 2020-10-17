@@ -23,6 +23,7 @@ $(document).ready(function () {
 
     AOS.init({
         easing: 'else',
-        duration: 1800
+        duration: 1800;
+        once: true
     });
 });
